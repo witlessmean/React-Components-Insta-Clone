@@ -3,8 +3,8 @@
 // HINT: You will need to add an onClick event pass through your props and update the hard coded Likes
 import React, {useState} from "react";
 
-const LikeSection = props => {
-  console.log(props)
+const LikeSection = (props) => {
+  //console.log(props)
   const [likes, setLikes] = useState(props.likes)
 
   
@@ -27,3 +27,6 @@ const LikeSection = props => {
 };
 
 export default LikeSection; //being exported to post
+
+
+//demy vid20
